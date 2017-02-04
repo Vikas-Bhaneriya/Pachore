@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>360 Viewer</title>
+  <meta name="viewport" content="width:800;, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel= "stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+</body>
+<script>
+  WebVRConfig = {
+    // forces availability of VR mode.
+    FORCE_ENABLE_VR: true,
+  };
+</script>
+<script src="libs/three.min.js"></script>
+<script src="libs/VREffect.js"></script>
+<script src="libs/webvr-manager.js"></script>
+<script src="libs/VRControls.js"></script>
+<script src="libs/webvr-polyfill.js"></script>
+<script src="libs/reticulum.js"></script>
+<!-- <script src="libs/vreticle.js"></script> -->
+<script src="app.js"></script>
+</html>
